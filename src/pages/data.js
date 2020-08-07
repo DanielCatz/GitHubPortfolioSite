@@ -1,6 +1,17 @@
 // data.js
 const data = [
   {
+    headerTop: "Paper Flowers",
+    headerBottom: "Craft Store",
+    type: "case-item-wide",
+    theme: "dark",
+    image: "paper.jpg",
+    liveURL: "https://bit.ly/2DCjIzo",
+    description:
+      "Full featured E-commerce web app focused on maintainability and usability.",
+      tech:"React, Node.js, Express, Mongo, Docker, AWS, Redux, Contentful"
+  }, 
+  {
     headerTop: "URL",
     headerBottom: "Shortener",
     type: "case-item-wide",
@@ -41,7 +52,7 @@ const data = [
     image: "job.jpg",
     liveURL: "https://github.com/DanielCatz/JobPostReader",
     description:
-      "Web Service that  will scan a job posting and return most frequently occurring words in a graph",
+      "Web Service that  will scan a job posting and return most frequently occurring words in a graph.",
       tech:"Python, Beautiful Soup, D3 graphs"
   },
   {
